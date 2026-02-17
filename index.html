@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="home">home</h2>
+      <i class="fa-solid fa-gear settings"></i>
+    </header>
+    <div class="user">
+      <div class="welcome">
+        <span>welcome back</span>
+        <span class="user-name">amr khaled</span>
+      </div>
+      <div class="user-border">
+        <img
+          src="/assets/images/٢٠٢٥١١١٦_١٨٢٥١٩.jpg"
+          alt="user image"
+          class="user-img"
+        />
+      </div>
+    </div>
+    <div class="run">
+      <div>run</div>
+      <div class="run-box">
+        <div class="gogo">gogo fight</div>
+        <div class="desc">description</div>
+      </div>
+    </div>
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="search" placeholder="search" />
+    </div>
+
+    <nav class="filters">
+      <button class="filter active" data-filter="all">all</button>
+      <button class="filter" data-filter="tomorrow">tomorrow</button>
+      <button class="filter" data-filter="favorite">favorite</button>
+      <button class="filter plus" data-filter="plus">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </nav>
+    <main class="tasks"></main>
+    <div class="task-input hidden">
+      <input type="text" placeholder="New task..." class="inp" />
+      <button class="confirm">Add</button>
+    </div>
+
+    <div class="add-div">
+      <button class="add">
+        <i class="fa-solid fa-plus" id="pl"></i>
+      </button>
+    </div>
+  </body>
+  <script src="/assets/js/main.js"></script>
+</html>
